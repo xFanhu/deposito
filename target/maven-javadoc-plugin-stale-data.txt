@@ -1,0 +1,41 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+--release
+23
+-sourcepath
+'C:/Users/iniga/Documents/NetBeansProjects/EEDD04/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/iniga/Documents/NetBeansProjects/EEDD04/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Deposito 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Deposito 1.0-SNAPSHOT API'
+inigo.cuentas
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\src\main\java = 1741343125625
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\allclasses-index.html = 1741348459260
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\allpackages-index.html = 1741348459265
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\element-list = 1741348459202
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\help-doc.html = 1741348459294
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\index-all.html = 1741348459283
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\index.html = 1741348459289
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\member-search-index.js = 1741348459271
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\module-search-index.js = 1741348459266
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\overview-tree.html = 1741348459241
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\package-search-index.js = 1741348459267
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\search.html = 1741348459285
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\tag-search-index.js = 1741348459272
+C:\Users\iniga\Documents\NetBeansProjects\EEDD04\target\reports\apidocs\type-search-index.js = 1741348459270
