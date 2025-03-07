@@ -1,5 +1,10 @@
 package inigo.cuentas;
 
+/**
+ * Clase que representa una cuenta a través del nombre del propietario, número
+ * de cuenta, saldo inicial y el tipo de interés.
+ * @author iniga
+ */
 public class CCuenta {
 
     private String nombre;
@@ -9,18 +14,33 @@ public class CCuenta {
 
     public CCuenta() {
     }
-
+    
+    /**
+     * Constructor de la cuenta.
+     * @param nom Nombre del propietarios
+     * @param cue Número de cuenta
+     * @param sal Saldo inicial
+     * @param tipo Tipo de interés
+     */
     public CCuenta(String nom, String cue, double sal, double tipo) {
         nombre = nom;
         cuenta = cue;
         saldo = sal;
     }
     
-
+    /**
+     * Muestra el estado de la cuenta a través de su saldo
+     * @return saldo de la cuenta
+     */
     public double estado() {
         return getSaldo();
     }
-
+    
+    /**
+     * Para ingresar una cantidad de dinero en la cuenta, siempre que sea positiva.
+     * @param cantidad cantidad de dinero a ingresar
+     * @throws Exception Si la cantidad a ingresar es negativa
+     */
     public void ingresar(double cantidad) throws Exception {
         if (cantidad < 0) {
             throw new Exception("No se puede ingresar una cantidad negativa");
@@ -28,6 +48,11 @@ public class CCuenta {
         setSaldo(getSaldo() + cantidad);
     }
 
+    /**
+     * Para retirar una cantidad de deniero de la cuenta, siempre que sea positiva.
+     * @param cantidad cantidad de dinero a retirar
+     * @throws Exception si la cantidad a reitrar es negativa.
+     */
     public void retirar(double cantidad) throws Exception {
         if (cantidad <= 0) {
             throw new Exception("No se puede retirar una cantidad negativa");
